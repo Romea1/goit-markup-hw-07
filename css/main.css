@@ -616,7 +616,6 @@ img {
   -webkit-transition: opacity 500ms linear, visibility 500ms linear;
   transition: opacity 500ms linear, visibility 500ms linear;
 }
-
 .backdrop.is-hidden {
   opacity: 0;
   visibility: hidden;
@@ -764,6 +763,15 @@ img {
 .contact-form-chk {
   margin-right: 8px;
 }
+.checkbox:checked + .contact-form-chk {
+  background-color: #2196F3;
+  fill: #2196F3;
+  border-color: #2196F3;
+  border-radius: 2px;
+  background-origin: border-box;
+  background-image: url(../images/іконки/checkbox.svg);
+  background-size: contain;
+}
 
 .form-name-chk {
   display: -webkit-box;
@@ -778,16 +786,6 @@ img {
   font-size: 14px;
   letter-spacing: 0.03em;
   color: #757575;
-}
-
-.checkbox:checked + .contact-form-chk {
-  background-color: #2196F3;
-  fill: #2196F3;
-  border-color: #2196F3;
-  border-radius: 2px;
-  background-origin: border-box;
-  background-image: url(../images/іконки/checkbox.svg);
-  background-size: contain;
 }
 
 .form-button {
