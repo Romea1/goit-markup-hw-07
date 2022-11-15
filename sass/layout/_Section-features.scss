@@ -1,0 +1,39 @@
+/*SECTION FEATURES*/
+
+
+.features-list {
+    display: flex;
+}
+
+.features-list-item:not(:last-child) {
+    margin-right: 30px;
+}
+
+.features-icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 120px;
+    background-color: $background-light;
+    border-radius: 4px;
+    margin-bottom: 30px;
+}
+
+.icon-antenna {
+    background-repeat: no-repeat;
+    width: 66px;
+    height: 70px;
+}
+
+.title-list {
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 1.14;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+}
+
+.description {
+    line-height: 1.71;
+    color: $title-text-color;
+}
